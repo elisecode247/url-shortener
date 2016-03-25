@@ -1,4 +1,4 @@
-var configValues = require('../.gitignore/config')
+var configValues = require('../.git/.gitignore/config')
 
 module.exports = { 
     getDbConnectionString: function(){ 
