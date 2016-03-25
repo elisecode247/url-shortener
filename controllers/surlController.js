@@ -51,7 +51,7 @@ module.exports = function(app) {
             newSurl.save(function(err) {
                 if (err) throw err;
                 screenJson.original_url = newSurl.original_url;
-                screenJson.short_url = req.headers.host + "/" + newSurl.short_url;
+                screenJson.short_url = "glacial-bastion-56262/" + newSurl.short_url;
                 res.end(JSON.stringify(screenJson));
             });
         }
