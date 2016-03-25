@@ -1,0 +1,26 @@
+{
+  "name": "short-url",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "author": "",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "~3.2.4",
+    "mongoose": "^4.4.10",
+    "valid-url": "^1.0.9"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {
+    "bcrypt": "^0.8.5",
+    "nodemon": "^1.9.1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongo"
+  ],
+  "license": "ISC"
+}
